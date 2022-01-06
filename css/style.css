@@ -47,6 +47,24 @@ width: 50%;
     border-radius: 20px;
     padding: 20px 35px;
 }
+
+
+#section1 .my-header{
+    position: relative;
+}
+#section1 .my-header h1{
+    margin-left: 20px;
+}
+#section1 .my-header::before{
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 12%;
+    height: 75%;
+    margin-right: 20px;
+    border-left: 3px solid orangered;
+}
+
 #mission{
     background: #fff4e8;
 }
@@ -79,26 +97,6 @@ width: 50%;
 .one-third img{
     width: 100%;
 }
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-    padding: 10px 0px;
-}
-#section5 img{
-    height: 250px;
-    width: 200px;
-}
-#section5 .half-width img:hover{
-    opacity: .8;
-    transition: .2s;
-    cursor: pointer;
-    transform: translateX(10px);
-}
-#section5 .link-btn:hover{
-    background-color: indianred;
-}
 
 #section3{
 background-image: url(../images/shapes/shape-1.png);
@@ -115,11 +113,24 @@ background-size: 100px 180px;
 
 }
 
-#section1  h1{
-    height: 105px;
-    padding-left: 5px;
-    border-left: 5px solid orangered;
+#section5 img{
+    height: 250px;
+    width: 200px;
 }
-.font-italic{
-    font-style: italic;
+#section5 .half-width img:hover{
+    opacity: .8;
+    transition: .2s;
+    cursor: pointer;
+    transform: translateX(10px);
+}
+#section5 .link-btn:hover{
+    background-color: indianred;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 0px;
 }
